@@ -22,7 +22,6 @@ import { checkLoggedIn } from "./redux/utils";
 checkLoggedIn();
 
 const GlobalStyles = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
   body {
     font-family: 'Poppins', sans-serif;
   }
