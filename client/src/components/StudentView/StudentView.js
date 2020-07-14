@@ -70,6 +70,7 @@ class StudentView extends Component {
       app: {},
       isAccepted: false,
       loading: true,
+      isAdmin: false,
     };
   }
   onClick = (e) => {
@@ -92,6 +93,9 @@ class StudentView extends Component {
       .then((user) => {
         if (user.data.status === "accepted!") {
           this.setState({ isAccepted: true });
+        }
+        if (user.data.status === "admin") {
+          this.setState({ isAdmin: true });
         }
       })
       .catch((err) => console.log(err));
@@ -139,6 +143,17 @@ class StudentView extends Component {
               <P>{data.q6}</P>
             </Wrapper>
           </>
+        ) : this.state.isAdmin ? (
+          <CenterWrap>
+            <StyledHeader>Oops!</StyledHeader>
+            <Label>Looks like this person is an admin!</Label>
+            <Label>
+              That means they are much cooler than you and don't need to apply
+            </Label>
+            <BtnWrapper>
+              <Button onClick={this.onClick}>Home</Button>
+            </BtnWrapper>
+          </CenterWrap>
         ) : (
           <CenterWrap>
             <StyledHeader>Oops!</StyledHeader>
