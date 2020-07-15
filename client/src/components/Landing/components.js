@@ -27,7 +27,7 @@ export const BtnWrapper = styled.div`
 
 export const StyledButton = styled(Button)`
   @media (max-width: 45em) {
-    width: 10em;
+    width: 8em;
     font-size: 35px;
   }
 `;
