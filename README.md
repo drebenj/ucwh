@@ -1,6 +1,6 @@
 # UCWH Official Website! (https://ucwh.wtf)
 
-![ucwh welcome](https://ibb.co/z6Z3DPK)
+![ucwh welcome](https://i.ibb.co/KKWtSVC/Screen-Shot-2020-07-16-at-12-00-46-AM.png)
 
 ## Tech Stack
 - MongoDB (Using cloud atlas)
