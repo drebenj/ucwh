@@ -1,3 +1,12 @@
+/**
+ * Copyright (c) 2020
+ *
+ * @summary Apply Page component and logic structure
+ * @author Josh Dreben (joshdreben@gmail.com)
+ *
+ * Created At: 07-11-2020
+ */
+
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
