@@ -10,6 +10,6 @@
 - Axios
 - Validator 
 
-p.s. This project is purely for fun and laughs, containing jokes meant for 
+p.s. This project is purely for fun, laughs, and practice, containing jokes meant for 
 friends of mine and very few other people. Please understand that none of the content
 in this website is meant to be taken seriously in any way. Enjoy! <3
