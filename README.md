@@ -1,4 +1,4 @@
-# UCWH Official Website!
+# UCWH Official Website! (https://ucwh.wtf)
 
 ## Primary Dependencies
 - MongoDB (Using cloud atlas)
@@ -9,3 +9,7 @@
 - React Redux
 - Axios
 - Validator 
+
+p.s. This project is purely for fun and laughs, containing jokes meant for 
+friends of mine and very few other people. Please understand that none of the content
+in this website is meant to be taken seriously in any way. Enjoy! <3
