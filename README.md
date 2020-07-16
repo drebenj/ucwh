@@ -1,6 +1,6 @@
 # UCWH Official Website! (https://ucwh.wtf)
 
-## Primary Dependencies/Tech Stack
+## Tech Stack
 - MongoDB (Using cloud atlas)
 - Express
 - Passport-JWT
